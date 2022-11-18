@@ -13,10 +13,10 @@ export default createScheduledFunction(
   "15 12 * * FRI",
   async () => {
     console.log("ok");
-    const times = [200, 2000, 10000];
-    for (let t of times) {
-      await delay(t);
-    }
-    return "Hello cron! v10";
+    // const times = [200, 2000, 10000];
+    // for (let t of times) {
+    //   await delay(t);
+    // }
+    return "Hello cron! v11";
   }
 );
