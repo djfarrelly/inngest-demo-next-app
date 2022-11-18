@@ -17,6 +17,6 @@ export default createScheduledFunction(
     for (let t of times) {
       await delay(t);
     }
-    return "Hello cron! v9";
+    return "Hello cron! v10";
   }
 );
