@@ -18,9 +18,7 @@ export default function Home() {
         <p className={styles.description}>
           Head over to{" "}
           <Link href="/api/inngest">
-            <a>
-              <code>/api/inngest</code>
-            </a>
+            <code>/api/inngest</code>
           </Link>{" "}
           to inspect all configured functions
         </p>
